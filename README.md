@@ -10,6 +10,7 @@ In this hands-on AWS lab, we will learn how to create and configure a simple sta
 * Set the following values :
 
     * **Bucket name :** my-bucket- with the AWS account ID or another series of numbers at the end to make it globally unique.
+
     * **AWS Region :** US East (N. Virginia) us-east-1.
 
         ![general configuration](imgs\img1.jpeg)
@@ -33,14 +34,36 @@ In this hands-on AWS lab, we will learn how to create and configure a simple sta
 * On the Edit static website hosting page, set the following values:
 
     * **Static website hosting** : Select Enable.
+
     * **Hosting type** : Select Host a static website.
+
     * **Index document** : Select index.html.
+
     * **Error document** : Select error.html.
 
     ![static hosting](imgs\img4.jpeg)
 
 ## 3. **Apply Bucket Policy**
- 
+ Bucket policies are defined in JSON format and are used to specify who can access the bucket and what actions they can perform.
+ We will use bucket policy to enable a public access to the bucket. Here are the steps on how to do it :
+
+ * In the Permissions > Bucket policy section, click Edit. 
+
+ * Click Policy generator.
+
+ * Select the following values:
+
+    * Select Type of Policy: Select S3 Bucket Policy.
+    * Effect: Select Allow.
+    * Principal: Enter *.
+    * Actions: Select GetObject.
+    
+    * Amazon Resource Name (ARN) 
+
+    ![bucket policy](imgs/img6.jpeg)
+
+
+
     
     
 
