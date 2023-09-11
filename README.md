@@ -12,19 +12,19 @@ In this hands-on AWS lab, we will learn how to create and configure a simple sta
     * **Bucket name :** my-bucket- with the AWS account ID or another series of numbers at the end to make it globally unique.
     * **AWS Region :** US East (N. Virginia) us-east-1.
 
-        ![general configuration](imgs\img1.jpeg)
+        ![general configuration](imgs/img1.jpeg)
 
 * In the Block Public Access settings for this bucket section, un-check Block all public access.
 
-    ![public access](imgs\img2.jpeg)
+    ![public access](imgs/img2.jpeg)
 
 * Leave the rest of the settings as their defaults and create the bucket.
 
-    ![bucket list](imgs\img3.jpeg)
+    ![bucket list](imgs/img3.jpeg)
 
 * Upload the error.html and index.html files provided in this repository.
 
-    ![upload files](imgs\img5.jpeg)
+    ![upload files](imgs/img5.jpeg)
 
 
 ## 2. **Enable Static Website Hosting**
@@ -37,7 +37,7 @@ In this hands-on AWS lab, we will learn how to create and configure a simple sta
     * **Index document** : Select index.html.
     * **Error document** : Select error.html.
 
-    ![static hosting](imgs\img4.jpeg)
+    ![static hosting](imgs/img4.jpeg)
 
 ## 3. **Apply Bucket Policy**
  
