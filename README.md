@@ -2,7 +2,7 @@
 ## **Introdcution**
 In this hands-on AWS lab, we will learn how to create and configure a simple static website. We will also learn how to configure a custom error page for our website. This will demonstrate how to create a cost-effective website hosting solution for sites that consist of files such as HTML, CSS, JavaScript, fonts, and images.
 
-![architecture](imgs\static-website-S3.drawio.png)
+![architecture](imgs/static-website-S3.drawio.png)
 
 ## 1. **Create S3 Bucket and upload files**
 * In the AWS Management Console, navigate to S3.
